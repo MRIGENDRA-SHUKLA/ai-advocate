@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the punishment for murder under IPC?",
+    "expected": "Death or life imprisonment under Section 302 IPC"
+  },
+  {
+    "question": "What is the punishment for theft in India?",
+    "expected": "Imprisonment up to 3 years under Section 379 IPC"
+  },
+  {
+    "question": "What are the rights of an arrested person?",
+    "expected": "Right to know grounds of arrest, right to lawyer, produced before magistrate within 24 hours"
+  },
+  {
+    "question": "What is the penalty for income tax evasion?",
+    "expected": "Penalty 100 to 300 percent of tax evaded under Section 276C Income Tax Act"
+  },
+  {
+    "question": "What is the minimum wage law in India?",
+    "expected": "Minimum Wages Act 1948 sets minimum wages for scheduled employments"
+  },
+  {
+    "question": "What is the punishment for rape under IPC?",
+    "expected": "Minimum 7 years to life imprisonment under Section 376 IPC"
+  },
+  {
+    "question": "What is the Companies Act 2013?",
+    "expected": "Law governing incorporation and regulation of companies in India"
+  },
+  {
+    "question": "What is Section 138 of Negotiable Instruments Act?",
+    "expected": "Punishment for cheque bounce \u2014 imprisonment up to 2 years or fine or both"
+  },
+  {
+    "question": "What is the Consumer Protection Act?",
+    "expected": "Consumer Protection Act 2019 protects consumer rights and establishes consumer courts"
+  },
+  {
+    "question": "What is the punishment for dowry death?",
+    "expected": "Minimum 7 years to life imprisonment under Section 304B IPC"
+  }
+]
