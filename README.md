@@ -65,6 +65,7 @@ Evaluation    → Custom Ragas-style metrics + LLM-as-Judge
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/ai-advocate.git
+git clone   https://github.com/MRIGENDRA-SHUKLA/ai-advocate
 cd ai-advocate
 ```
 

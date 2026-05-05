@@ -1,0 +1,25 @@
+# api/requirements.txt
+# AI Advocate API — All required libraries
+
+# ===== WEB FRAMEWORK =====
+fastapi==0.136.1
+uvicorn==0.46.0
+pydantic>=2.0.0
+
+# ===== AI / ML =====
+faiss-cpu==1.13.2
+sentence-transformers==5.4.1
+numpy==2.4.4
+
+# ===== LLM PROVIDERS =====
+groq
+google-genai
+google-cloud-aiplatform
+
+# ===== UTILITIES =====
+python-dotenv
+requests
+
+# ===== DATA =====
+pandas
+openpyxl
