@@ -20,6 +20,25 @@ st.set_page_config(
 
 @st.cache_resource
 def load_faiss():
+    import gdown
+    import os
+    
+    # Download from Google Drive if not exists
+    if not os.path.exists('vector_store'):
+        os.makedirs('vector_store')
+    
+    if not os.path.exists('vector_store/legal_index.faiss'):
+        gdown.download(
+            "https://drive.google.com/uc?id=13E3tLzUtLMTB0JBOs-QDp5eeUJsvL_sx",
+            "vector_store/legal_index.faiss", quiet=False
+        )
+    
+    if not os.path.exists('vector_store/metadata.json'):
+        gdown.download(
+            "https://drive.google.com/uc?id=1bHIsrVIrFl-RBbyFiJMCT8687t9j5wdh",
+            "vector_store/metadata.json", quiet=False
+        )
+    
     index = faiss.read_index('vector_store/legal_index.faiss')
     with open('vector_store/metadata.json', 'r', encoding='utf-8') as f:
         chunks = json.load(f)
